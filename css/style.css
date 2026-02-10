@@ -186,6 +186,7 @@ body {
   display: none;
   margin-top: 4px;
   flex: 1;
+  min-height: 0;
   box-sizing: border-box;
 }
 
@@ -408,6 +409,7 @@ body {
   display: none;
   margin-top: 4px;
   flex: 1;
+  min-height: 0;
   box-sizing: border-box;
 }
 
@@ -497,6 +499,7 @@ body {
   display: none;
   margin-top: 4px;
   flex: 1;
+  min-height: 0;
   box-sizing: border-box;
 }
 
