@@ -1,6 +1,6 @@
 #skills-menu {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   padding: 4px;
   display: none;

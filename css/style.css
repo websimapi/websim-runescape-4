@@ -90,8 +90,9 @@ body {
 /* Bottom icons container */
 #bottom-icons {
   height: 36px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 4px;
   background: #382418;
@@ -124,7 +125,7 @@ body {
 /* Logout popup styling */
 #logout-popup {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   display: flex;
   justify-content: center;
@@ -144,8 +145,13 @@ body {
   border: 2px solid #5a473a;
   padding: 12px;
   text-align: center;
-  width: 85%;
-  max-width: 180px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .popup-content p {
@@ -174,7 +180,7 @@ body {
 /* Friends and Ignore List styling */
 .friends-list, .ignore-list {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   padding: 4px;
   display: none;
@@ -394,7 +400,7 @@ body {
 /* Game Options Menu */
 #game-options {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   border: none;
   padding: 4px;
@@ -485,7 +491,7 @@ body {
 /* Update Quest Journal styles */
 #quest-journal {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   padding: 4px;
   display: none;
@@ -598,7 +604,7 @@ body {
 /* World Selector Menu */
 #worlds-menu {
   position: relative;
-  width: calc(100% - 8px);
+  width: 100%;
   background: #382418;
   padding: 4px;
   display: none;
